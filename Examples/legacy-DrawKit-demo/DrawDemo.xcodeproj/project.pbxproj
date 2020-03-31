@@ -334,7 +334,7 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BF58CFE00C7526A6009B85CC /* GP for GCDrawDemo */,
+				BF58CFE00C7526A6009B85CC /* GP */,
 				BFF06B1D0C3892F3008D427F /* DrawingSizeController.h */,
 				BFF06B1E0C3892F3008D427F /* DrawingSizeController.m */,
 				BFA967090D7580BC00D976CB /* GCBasicDialogController.h */,
@@ -477,7 +477,7 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		BF58CFE00C7526A6009B85CC /* GP for GCDrawDemo */ = {
+		BF58CFE00C7526A6009B85CC /* GP */ = {
 			isa = PBXGroup;
 			children = (
 				BF58CFE10C7526A6009B85CC /* DKGradientCell.h */,
@@ -515,8 +515,8 @@
 				BF58D0030C7526A6009B85CC /* WTPlistKeyValueCoding.h */,
 				BF58D0040C7526A6009B85CC /* WTPlistKeyValueCoding.m */,
 			);
-			name = "GP for GCDrawDemo";
-			path = "Code/GP for GCDrawDemo";
+			name = GP;
+			path = Code/GP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
