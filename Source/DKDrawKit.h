@@ -118,5 +118,5 @@ FOUNDATION_EXPORT const unsigned char DKDrawKitVersionString[];
 #import "DKQuartzCache.h"
 
 #ifdef qUseLogEvent
-#import "LogEvent.h"
+//#import "LogEvent.h"
 #endif

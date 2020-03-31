@@ -71,6 +71,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49B216D12432D5AB0078FD0F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		49B216D32432D5B00078FD0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		76D81C4F1F873AEB00926ABF /* DrawKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DrawKit.xcodeproj; path = ../../DrawKit.xcodeproj; sourceTree = "<group>"; };
 		76FC0A991AFD090D005277C4 /* drawkit-document-persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drawkit-document-persistence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FC0A9D1AFD090D005277C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49B216CE2432D5AB0078FD0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B216D32432D5B00078FD0F /* QuartzCore.framework */,
+				49B216D12432D5AB0078FD0F /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		76D81C501F873AEB00926ABF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +134,7 @@
 				76FC0AB51AFD090E005277C4 /* drawkit-document-persistenceTests */,
 				76FC0A9A1AFD090D005277C4 /* Products */,
 				76D81C4F1F873AEB00926ABF /* DrawKit.xcodeproj */,
+				49B216CE2432D5AB0078FD0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,6 +251,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -405,7 +418,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -449,7 +461,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
