@@ -115,7 +115,7 @@
 	mLastSelector = NULL;
 	mChangePerGroupCount = 0;
 
-	NSLog(@"grouping level = %ld", (long)[self groupingLevel]);
+	//NSLog(@"grouping level = %ld", (long)[self groupingLevel]);
 
 	[super beginUndoGrouping];
 
@@ -127,7 +127,7 @@
 	mSkipTask = NO;
 	mLastSelector = NULL;
 
-	NSLog(@"grouping level = %ld", (long)[self groupingLevel]);
+	//NSLog(@"grouping level = %ld", (long)[self groupingLevel]);
 
 	[super endUndoGrouping];
 

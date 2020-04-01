@@ -39,7 +39,7 @@
 {
 	m_image = image;
 	// TODO: Remove setFlipped. See what's impacted if it is removed.
-	[m_image setFlipped:YES];
+	//[m_image setFlipped:YES];
 }
 
 @synthesize image = m_image;

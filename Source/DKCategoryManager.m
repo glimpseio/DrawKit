@@ -674,8 +674,8 @@ static id sDearchivingHelper = nil;
 		[mMenusList makeObjectsPerformSelector:@selector(addKey:)
 									withObject:key];
 	}
-
 	[[NSNotificationCenter defaultCenter] postNotificationName:kDKCategoryManagerDidAddKeyToCategory
+
 														object:self];
 }
 

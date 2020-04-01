@@ -144,8 +144,8 @@ static NSMutableDictionary* sFileExportBindings = nil;
 @synthesize drawing = m_drawing;
 
 #pragma mark -
-
 @synthesize mainView = mMainDrawingView;
+
 
 - (DKViewController*)makeControllerForView:(NSView*)aView
 {
